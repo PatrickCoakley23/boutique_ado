@@ -102,6 +102,10 @@ a.category-badge > span.badge:hover {
     cursor: pointer;
 }
 
+input[name='q']::placeholder {
+    color: #aab7c4;
+}
+
 /* ------------------------------- bootstrap toasts */
 
 .message-container {
@@ -179,7 +183,6 @@ a.category-badge > span.badge:hover {
   }
 }
 
-
 /* Allauth form formatting */
 
 .allauth-form-inner-content p {
@@ -233,7 +236,6 @@ a.category-badge > span.badge:hover {
 .allauth-form-inner-content a {
 	color: #17a2b8; /* text-info */
 }
-
 
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
